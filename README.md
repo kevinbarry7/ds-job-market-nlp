@@ -13,8 +13,6 @@ Job postings for data science and ML roles vary wildly in how they describe requ
 ## My recommendation
 Prioritize closing the SQL gap first, since it combines high market demand (34% of postings) with being the fastest of the identified gaps to close through structured coursework — a better first move than spreading effort evenly across all 18 tracked skills.
 
-![skills gap bubble chart](visuals/skills-gap-bubble.png)
-
 ## How I did it
 Built in Python using the JSearch API for live job data collection, regex-based extraction for skill detection across 18 predefined skills, a co-occurrence matrix to reveal skill clustering, and a bubble chart to visualize the personal skills-gap analysis. Data limitations: a single snapshot of 96 postings from one API source, so results reflect a point in time rather than a longitudinal trend, and skill detection via regex can miss non-standard phrasing.
 
